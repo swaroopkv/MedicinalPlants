@@ -1,0 +1,17 @@
+[
+    {  "id":100,
+       "Name":"Basil ",
+       "BotonicalName":"ocimum basilicum",
+       "uses":"Reduces stress<br>Strong antibacterial properties<br>Rich source of antioxidants<br>Prevents some harmful effects of aging<br> Reduces inflammation and swelling<br>Strengthens bones and liver<br>Boosts immunity<br>Boosts metabolism<br>Improves digestion",
+       "image":"https://www.proflowers.com/blog/wp-content/uploads/2018/07/medicinal-plants-01-basil.jpg"},
+    {   "id":101,
+        "Name":"Catnip",
+        "BotonicalName":"nepeta cataria",
+        "uses":"Repels bugs and relieves irritation from bug bites<br>Calms restlessness, anxiety and stress<br>Relieves stomach discomfort<br>Accelerates recovery from colds and fevers",
+        "image":"https://www.proflowers.com/blog/wp-content/uploads/2018/07/medicinal-plants-02-catnip.jpg"},
+     {"id":102,
+      "Name":"Cayenne pepper",
+      "BotonicalName":"capsicum annuum",
+      "uses":"Detoxifies the body<br>Boosts metabolism<br>Eases an upset stomach and helps digestion<br>Improves circulation<br>Relieves pain",
+      "image":"https://www.proflowers.com/blog/wp-content/uploads/2018/07/medicinal-plants-03-cayannepepper.jpg"}
+]

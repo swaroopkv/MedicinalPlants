@@ -1,0 +1,10 @@
+.bgc{
+    background-color:#343A40;
+}
+
+.table_legenda {
+    table-layout: fixed;
+  }
+.table_legenda th,td {
+    word-wrap: break-word;
+  }

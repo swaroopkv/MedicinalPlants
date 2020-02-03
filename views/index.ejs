@@ -1,0 +1,43 @@
+<html>
+  <head><title>Medicinal Plants</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+  <body class="bgc">
+    
+   <table class="table table-dark table_legenda table-striped table-bordered" width="600px">
+     <tr>
+       <th width="20%"> 
+          Name:
+       </th>
+       <td width ="80%">
+          <%- JSON.stringify(plant.Name)%>
+     </tr>
+     <tr>
+        <th width="20%">
+            Botonical Name:
+        </th>
+        <td width="80%">
+            <%- JSON.stringify(plant.BotonicalName)%>
+      </tr>
+      <tr>
+          <th width="90%">
+              Uses:
+          </th>
+          <td width= "10%">
+              <%- JSON.stringify(plant.uses)%>
+          </td>
+        </tr>
+        <tr>
+        <td style="text-align: center" width="50%">
+        <img src=<%- JSON.stringify(plant.image)%> alt="Image not Found" width="200px" height="200px">
+        </td>
+        <td>
+          
+        </td>
+        </tr>
+        
+   </table>
+   
+  </body>
+</html>
